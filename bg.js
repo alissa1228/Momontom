@@ -8,7 +8,7 @@ function handleImgLoad(){
 
 function paintImage(imgNumber){
     const image = new Image();
-    image.src = `C:/vanilaJs_Clone/img/${imgNumber+1}.jpg`
+    image.src = `img/${imgNumber+1}.jpg`
    
     
     //image.addEventListener("loadend",handleImgLoad);
